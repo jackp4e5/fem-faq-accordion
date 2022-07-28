@@ -1,0 +1,16 @@
+@use 'variables' as v;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom, v.$violet 0% , v.$lightBlue 100%);
+    font-family: v.$font-family;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
